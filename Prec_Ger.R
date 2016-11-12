@@ -23,3 +23,8 @@ prec_clip_mask<-mask(prec_clip,Germany1)
 
 
 plot(prec_clip_mask)
+
+
+prec_aveg<-cellStats(prec_clip_mask, stat="mean")
+
+# End
