@@ -1,0 +1,6 @@
+x1<-rbinom(10,size=1,prob=0.5)
+x2<-factor(x1,labels=c("man","woman"))
+summary(x2)
+levels(x2)
+as.character(x2)
+install.packages("car")
